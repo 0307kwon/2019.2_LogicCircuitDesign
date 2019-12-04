@@ -1,0 +1,258 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Nov 23 11:54:41 2019
+# Process ID: 16612
+# Current directory: C:/Modeltech_pe_edu_10.4a/examples/proj2/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log adders_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source adders_tb.tcl
+# Log file: C:/Modeltech_pe_edu_10.4a/examples/proj2/project_1/project_1.runs/synth_1/adders_tb.vds
+# Journal file: C:/Modeltech_pe_edu_10.4a/examples/proj2/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source adders_tb.tcl -notrace
+Command: synth_design -top adders_tb -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5552 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 340.332 ; gain = 70.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'adders_tb' [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:2]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:15]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:15]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:16]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:16]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:17]
+WARNING: [Synth 8-639] system function call 'random' not supported [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:17]
+INFO: [Synth 8-6157] synthesizing module 'RCA' [C:/Modeltech_pe_edu_10.4a/examples/proj2/RCA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder4' [C:/Modeltech_pe_edu_10.4a/examples/proj2/fullAdder4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder1' [C:/Modeltech_pe_edu_10.4a/examples/proj2/fullAdder1.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder1' (1#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/fullAdder1.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder4' (2#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/fullAdder4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RCA' (3#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/RCA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA_4bit' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLA_4bit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLB_4bit' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLB_4bit.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'CLB_4bit' (4#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLB_4bit.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'CLA_4bit' (5#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLA_4bit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (6#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/CLA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CSA_1' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MUX21' [C:/Modeltech_pe_edu_10.4a/examples/proj2/MUX21.v:2]
+	Parameter delay bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MUX21' (7#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/MUX21.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'sum' does not match port width (16) of module 'MUX21' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_1.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'CSA_1' (8#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CSA_2' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_2.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'sum' does not match port width (16) of module 'MUX21' [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_2.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'CSA_2' (9#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/CSA_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adders_tb' (10#1) [C:/Modeltech_pe_edu_10.4a/examples/proj2/adders_tb.v:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 396.129 ; gain = 125.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 396.129 ; gain = 125.926
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 396.129 ; gain = 125.926
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 396.129 ; gain = 125.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 336   
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fullAdder1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
+Module CLB_4bit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
+Module MUX21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 492.145 ; gain = 221.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 492.145 ; gain = 221.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 500.430 ; gain = 230.227
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 605.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 605.223 ; gain = 335.020
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 605.223 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Modeltech_pe_edu_10.4a/examples/proj2/project_1/project_1.runs/synth_1/adders_tb.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file adders_tb_utilization_synth.rpt -pb adders_tb_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 23 11:54:58 2019...
